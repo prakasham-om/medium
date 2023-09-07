@@ -12,7 +12,7 @@ const authRouter=require('./Auth/authroute')
 
 
 
-app.use(cors({origin:'*',methods:"GET,POST,PUT,DELETE",credentials:true}))
+app.use(cors({origin:'http://deploy-mern-1whq.vercel.app',methods:"GET,POST,PUT,DELETE",credentials:true}))
 
 app.use(bodyParser.json())
 const router=require('./Routes/route')
